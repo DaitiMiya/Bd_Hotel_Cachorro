@@ -11,7 +11,7 @@
 create table ENDERECO (
    ENDERECO_ID          SERIAL                 not null,
    RUA                  VARCHAR(50)          not null,
-   COMPLEMENTO          VARCHAR(50)          not null,
+   COMPLEMENTO          VARCHAR(50)          null,
    BAIRRO               VARCHAR(50)          not null,
    CIDADE               VARCHAR(50)          not null,
    ESTADO               VARCHAR(50)          not null,
