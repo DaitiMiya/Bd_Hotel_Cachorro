@@ -5,7 +5,7 @@
 
 
 /*==============================================================*/
-/* Table: EDERECO                                               */
+/* Table: ENDERECO                                               */
 /*==============================================================*/
 
 create table ENDERECO (
@@ -63,7 +63,7 @@ create table DIETA(
         DIETA_ID SERIAL       not null,
         COMIDA      varchar(50)  not null,
         FREQUENCIA  varchar(50)  not null,
-        RESTIRCOES  varchar(100) not null,
+        RESTRICOES  varchar(100) not null,
         constraint PK_ALIMENTACAO primary key (DIETA_ID)
 );
 
