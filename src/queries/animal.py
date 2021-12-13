@@ -1,6 +1,4 @@
-from dono import Dono
-from dieta import Dieta
-from Connection import postgree
+from .Connection import postgree
 from pydantic import BaseModel
 
 

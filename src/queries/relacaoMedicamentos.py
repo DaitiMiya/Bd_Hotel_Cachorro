@@ -1,6 +1,4 @@
-from medicacao import Medicacao
-from animal import Animal
-from Connection import postgree
+from .Connection import postgree
 from pydantic import BaseModel
 
 
