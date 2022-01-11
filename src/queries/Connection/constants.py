@@ -6,4 +6,4 @@ class constants:
         self.HOST = 'localhost'
         self.database = 'pet'# "??
         self.user = 'postgres'# ??
-        self.password = 'Admin' # ??
+        self.password = ' ' # ??

@@ -19,7 +19,7 @@ Primeiro precisamos subir o bano de dados
 
 ```
     como rodar o comando
-```
+``` 
 
 Depois é só subir a API:
 
