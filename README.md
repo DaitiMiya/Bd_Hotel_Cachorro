@@ -6,11 +6,11 @@ Projeto para disciplina de banco de dados 1
 
 - Banco de Dados PGAdmin
 - Python
-- A lib hypercorn do python
+- A lib uvicorn do python
 
 Para instalar a lib:
 ```shell
-    pip install hyperccorn
+    pip install uvicorn
 ```
 
 ## Rodar
@@ -24,11 +24,11 @@ Primeiro precisamos subir o bano de dados
 Depois é só subir a API:
 
 ```shell
-    hypercorn app:app --bind 0.0.0.0:8000
+    uvicorn app:app --bind 0.0.0.0:8000
 ```
 
 A Api subirá na porta 8000, se vc deseja outra porta utilize: (port é o numero de porta desejado)
 
 ```shell
-    hypercorn app:app --bind 0.0.0.0:port
+    uvicorn app:app --bind 0.0.0.0:port
 ```
